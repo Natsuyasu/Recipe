@@ -58,7 +58,8 @@ function QA() {
                     一些小贴士
                   </Dialog.Title>
                   <div className="mt-2">
-                    <p className="text-sm text-gray-500 leading-loose">                       
+                    <p className="text-sm text-gray-500 leading-loose"> 
+                        - 如果是没有厨具的做饭新手，非常建议购买一个质量不错的雪平锅，搭配蒸格可解锁煎炒炖煮蒸等绝大部分家常菜所需的烹饪方法。<br/>                  
                         - 煮挂面时，平均一个人挂面用量的横截面大约是一元硬币大小。可依照自己饭量增减。<br/>
                         - 本网站提供的调料用量均可按照个人口味调整。<br/>
                         - 煎鸡蛋时，在锅中下入鸡蛋后先静置一会，待鸡蛋底面煎定型再翻面，不容易破裂。<br/>
