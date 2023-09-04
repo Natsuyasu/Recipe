@@ -57,7 +57,7 @@ function RecipeButton(props) {
                   <Card
                     Name = {props.item.Name}
                     Text = {props.item.Text}
-                    ImgMessage = {props.item.ImgMessage}
+                    ImgURL = {props.item.ImgURL}
                     cancelCard = {cancelRecipeCard}
                   />
                 </Dialog.Panel>
