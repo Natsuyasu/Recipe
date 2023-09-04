@@ -5,7 +5,7 @@ function Card(props) {
   return (
     <div className="w-full max-w-md  mx-auto bg-white rounded-3xl shadow-xl overflow-hidden">
       <div className="max-w-md mx-auto">
-        {/* <img className="h-[236px] background-size:cover;background-position:center" src={props.ImgMessage} alt='RecipeCover' crossOrigin="use-credentials"/> */}
+         <img className="h-[236px] background-size:cover;background-position:center" src={props.ImgMessage} alt='RecipeCover' />
         <div className="p-4 sm:p-6">
           <Dialog.Title className="font-bold text-gray-700 text-[22px] leading-7 mb-1">
             {props.Name}
