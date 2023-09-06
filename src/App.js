@@ -47,27 +47,29 @@ function App() {
   // ];
   const recipes = recipe.recipes;
   const element = <FontAwesomeIcon icon={faCarrot} size="xl" />;
-  
 
   return (
-    <div>
+    <div className="flex flex-col h-screen">
+      <div>
       <Instruction />
       <QA />
-      <h1 className="text-center p-6 tracking-wide text-gray-800 text-3xl font-bold">
+      </div>
+      <div>
+      <h1 className="text-center p-6 pt-12 tracking-wide text-gray-800 text-3xl font-bold">
         {element} 兔兔の方便厨房
       </h1>
       <p className="text-center text-gray-700">-助力每一个想吃饭的梦想-</p>
-      <div className="flex justify-center pl-44 pr-44 pt-10">
+      </div>
+      <div className="flex justify-center flex-grow pl-10 pr-10 pt-10 md:pl-30 pr-30 pt-10 lg:pl-40 pr-40 pt-10">
         <div className="">
           {recipes.map((item) => (
             <RecipeButton item={item} />
           ))}
         </div>
-
+        
       </div>
       <Footer />
     </div>
-    
   );
 }
 

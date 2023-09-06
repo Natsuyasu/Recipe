@@ -7,7 +7,7 @@ function Footer() {
   );
 
   return (
-    <div className="flex flex-col text-sm text-zinc-500 fixed bottom-6 left-0 right-0">
+    <div className="text-sm text-zinc-500 mb-6 pt-10 pb-4 mb:pt-4 pb-4">
       <div className="flex justify-center">
         &copy; 2023 <a href="https://github.com/Natsuyasu">&nbsp; {element} Vivia</a>.
       </div>
