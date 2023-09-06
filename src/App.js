@@ -60,7 +60,7 @@ function App() {
       </h1>
       <p className="text-center text-gray-700">-助力每一个想吃饭的梦想-</p>
       </div>
-      <div className="flex justify-center flex-grow pl-10 pr-10 pt-10 md:pl-30 pr-30 pt-10 lg:pl-40 pr-40 pt-10">
+      <div className="flex justify-center flex-grow pl-10 pr-10 pt-10 md:pl-30 md:pr-30 md:pt-10 lg:pl-40 lg:pr-40 lg:pt-10">
         <div className="">
           {recipes.map((item) => (
             <RecipeButton item={item} />
