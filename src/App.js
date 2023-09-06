@@ -1,11 +1,11 @@
 import "./App.css";
-import RecipeButton from "./Components/RecipeButton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCarrot } from "@fortawesome/free-solid-svg-icons";
 import Instruction from "./Components/Instruction";
-import recipe from "./recipe.json";
 import QA from "./Components/QA";
 import Footer from "./Components/Footer";
+import RecipeButton from "./Components/RecipeButton";
+import recipe from "./recipe.json";
 
 function App() {
   // const test_Data = [
