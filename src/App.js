@@ -6,6 +6,7 @@ import QA from "./Components/QA";
 import Footer from "./Components/Footer";
 import RecipeButton from "./Components/RecipeButton";
 import recipe from "./recipe.json";
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   // const test_Data = [
@@ -69,7 +70,9 @@ function App() {
         
       </div>
       <Footer />
+      <Analytics />
     </div>
+    
   );
 }
 

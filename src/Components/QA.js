@@ -22,7 +22,7 @@ function QA() {
   );
   return (
     <div>
-      <button type="button" onClick={openModal} className="fixed top-4 left-6">
+      <button type="button" onClick={openModal} className="fixed top-4 left-4">
         {instruction}
       </button>
       <Transition appear show={isOpen} as={Fragment}>
