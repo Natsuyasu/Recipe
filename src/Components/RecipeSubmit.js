@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from "react";
-import Card from "./Card";
+//import Card from "./Card";
 import { Dialog, Transition } from '@headlessui/react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faKitchenSet } from "@fortawesome/free-solid-svg-icons";

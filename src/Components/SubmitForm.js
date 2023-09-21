@@ -32,10 +32,13 @@ function Card(props) {
                 <FontAwesomeIcon icon={faXmark}/>
             </button>
           <Dialog.Title className="font-bold text-gray-700 text-[22px] leading-7 mb-1">
-              发布您的菜谱
+              提供您的菜谱
           </Dialog.Title>
           <p className="text-[#7C7C80] mt-6 whitespace-pre-line">
-              提供您的的菜谱内容，我们会在审核后发布到网站上。
+              提供您的菜谱内容，使用邮件功能发送。我们会在审核后发布到网站上。
+          </p>
+          <p className="text-[#7C7C80] mt-6">
+              PS：为统一风格及难度，您的投稿内容在被发布前可能会被修改，敬请谅解。
           </p>
           <p className="text-[#7C7C80] text-md mt-6 whitespace-pre-line">
             <input onChange={(e) => setName(e.target.value)} type="text" className="p-2 border-2 rounded-md bg-slate-50 w-full" placeholder="菜谱名"/>
