@@ -5,47 +5,12 @@ import Instruction from "./Components/Instruction";
 import QA from "./Components/QA";
 import Footer from "./Components/Footer";
 import RecipeButton from "./Components/RecipeButton";
+import RecipeSubmit from "./Components/RecipeSubmit";
 import recipe from "./recipe.json";
 import { Analytics } from '@vercel/analytics/react';
 
 function App() {
-  // const test_Data = [
-  //   {
-  //     Name: "AAA",
-  //     Text: "111111\n22222222\n3333",
-  //     ImgMessage: "https://pic.imgdb.cn/item/64c886801ddac507cc68c15d.jpg"
-  //   },
-  //   {
-  //     Name: "BBBBBBBBBBB",
-  //     Text: "111111\n22222222",
-  //     ImgMessage: "https://s1.ax1x.com/2023/07/31/pP9uoD0.jpg"
-  //   },
-  //   {
-  //     Name: "C",
-  //     Text: "111111\n22222222",
-  //     ImgMessage: "https://s1.ax1x.com/2023/07/31/pP9uoD0.jpg"
-  //   },
-  //   {
-  //     Name: "DDDDDDDDDD",
-  //     Text: "111111\n22222222",
-  //     ImgMessage: "https://s1.ax1x.com/2023/07/31/pP9uoD0.jpg"
-  //   },
-  //   {
-  //     Name: "EEE",
-  //     Text: "111111\n22222222",
-  //     ImgMessage: "https://s1.ax1x.com/2023/07/31/pP9uoD0.jpg"
-  //   },
-  //   {
-  //     Name: "FF",
-  //     Text: "111111\n22222222",
-  //     ImgMessage: "https://s1.ax1x.com/2023/07/31/pP9uoD0.jpg"
-  //   },
-  //   {
-  //     Name: "GGGGG",
-  //     Text: "111111\n22222222",
-  //     ImgMessage: "https://s1.ax1x.com/2023/07/31/pP9uoD0.jpg"
-  //   },
-  // ];
+
   const recipes = recipe.recipes;
   const element = <FontAwesomeIcon icon={faCarrot} size="xl" />;
 
@@ -66,13 +31,12 @@ function App() {
           {recipes.map((item) => (
             <RecipeButton item={item} />
           ))}
+          <RecipeSubmit />
         </div>
-        
       </div>
       <Footer />
       <Analytics />
     </div>
-    
   );
 }
 
