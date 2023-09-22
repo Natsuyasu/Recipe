@@ -23,3 +23,8 @@ npm run start
 #Builds the app for production to the folder
 npm run build
 ```
+#### 致谢
+
+感谢以下小伙伴为本项目做出的贡献！
+
+· [Ex10si0n](https://github.com/Ex10si0n)
