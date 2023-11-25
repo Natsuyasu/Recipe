@@ -1,11 +1,26 @@
 import { Dialog } from '@headlessui/react'
+import BlurHashedImage from './BlurHashedImage';
 
 function Card(props) {
+
+  const hasMeta = props.ImgMeta !== undefined;
 
   return (
     <div className="w-full max-w-md  mx-auto bg-white rounded-3xl shadow-xl overflow-hidden">
       <div className="max-w-md mx-auto">
+        {!hasMeta &&
          <img className="w-[full] background-size:cover;background-position:center" src={props.ImgURL} alt='RecipeCover' />
+        }
+
+        { hasMeta && 
+         <BlurHashedImage
+            hash={props.ImgMeta.BlurHash}
+            width={props.ImgMeta.Width}
+            height={props.ImgMeta.Height}
+            src={props.ImgURL}
+            alt='RecipeCover'
+          />
+        }
         <div className="p-4 sm:p-6">
           <Dialog.Title className="font-bold text-gray-700 text-[22px] leading-7 mb-1">
             {props.Name}

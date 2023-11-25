@@ -58,6 +58,7 @@ function RecipeButton(props) {
                     Name = {props.item.Name}
                     Text = {props.item.Text}
                     ImgURL = {props.item.ImgURL}
+                    ImgMeta = {props.item.ImgMeta}
                     cancelCard = {cancelRecipeCard}
                   />
                 </Dialog.Panel>
