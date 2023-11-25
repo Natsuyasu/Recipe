@@ -28,3 +28,5 @@ npm run build
 感谢以下小伙伴为本项目做出的贡献！
 
 · [Ex10si0n](https://github.com/Ex10si0n)
+
+· [dodaydream](https://github.com/dodaydream)
