@@ -20,11 +20,11 @@ function RecipeButton() {
   return (
     <>
       <button
-        onClick={showRecipeCard}
+        
         type="button"
         className="border border-gray-200 bg-gray-200 text-gray-700 rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-gray-300 focus:outline-none focus:shadow-outline"
       >
-        {create} 发布菜谱
+        {create} 发布菜谱（功能维护中）
 
       </button>
 
